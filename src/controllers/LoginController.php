@@ -76,7 +76,8 @@ class LoginController
     session_start();
     unset($user["password"]);
     $_SESSION["user"] = $user;
-    header("Location: index.php?controller=home&action=show");
+    echo '<script>window.location.href = "index.php?controller=home&action=show";</script>';
+    // header("Location: index.php?controller=home&action=show");
   }
 
   public function register()
