@@ -1,3 +1,5 @@
+<!-- COPIAR ESTE ARCHIVO COMO "config.php" Y COMPLETAR LAS VARIABLES-->
+
 <?php
 
 $dbHost = "localhost";
